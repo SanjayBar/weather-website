@@ -22,7 +22,9 @@ const forecast = function (lat, lng, callback) {
           body.current.temperature +
           " fahrenheit out. It feels like " +
           body.current.feelslike +
-          " fahrenheit out."
+          " fahrenheit out and the humidity is " +
+          body.current.humidity +
+          "%."
       );
     }
   });
